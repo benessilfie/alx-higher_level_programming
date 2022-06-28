@@ -16,12 +16,6 @@ This repository contains my solutions to the high-level programming projects I d
 - [Projects](#projects)
 - [Usage](#usage)
 - [Author](#author)
-<!-- - [Requirements](#requirements) -->
-- [Table of contents](#table-of-contents)
-- [Requirements](#requirements)
-- [Projects](#projects)
-- [Usage](#usage)
-- [Author](#author)
 
 ## Requirements
 
