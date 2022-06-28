@@ -253,7 +253,7 @@ int check_cycle(listint_t *list);
 #endif /* LISTS_H */
 ```
 
-```
+``` C
 carrie@ubuntu:~/0x00$ cat 10-linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
@@ -394,8 +394,8 @@ Linked list has no cycle
 Linked list has a cycle
 carrie@ubuntu:~/0x00$
 ```
-<!-- 
-### Hello, write
+
+### 11. Hello, write
 
 Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
 
@@ -407,17 +407,17 @@ Write a Python script that prints exactly `and that piece of art is useful - Dor
 **Solution:** [100-write.py](https://github.com/essilfiequansah/alx-higher_level_programming/blob/main/0x00-python-hello_world/100-write.py)
 
 ``` Python
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ ./100-write.py
+guillaume@ubuntu:~/py/0x00$ ./100-write.py
 and that piece of art is useful - Dora Korpar, 2015-10-19
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ echo $?
+guillaume@ubuntu:~/py/0x00$ echo $?
 1
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ ./100-write.py 2> q
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ cat q
+guillaume@ubuntu:~/py/0x00$ ./100-write.py 2> q
+guillaume@ubuntu:~/py/0x00$ cat q
 and that piece of art is useful - Dora Korpar, 2015-10-19
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ 
+guillaume@ubuntu:~/py/0x00$
 ```
 
-### Compile
+### 12. Compile
 
 Write a script that compiles a Python script file.
 
@@ -428,18 +428,18 @@ The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => outp
 **Solution:** [101-compile](https://github.com/essilfiequansah/alx-higher_level_programming/blob/main/0x00-python-hello_world/101-compile)
 
 ``` Python
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ cat main.py 
+guillaume@ubuntu:~/py/0x00$ cat main.py 
 #!/usr/bin/python3
-print("Holberton School")
+print("Best School")
 
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ export PYFILE=main.py
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ ./101-compile
+guillaume@ubuntu:~/py/0x00$ export PYFILE=main.py
+guillaume@ubuntu:~/py/0x00$ ./101-compile
 Compiling main.py ...
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ ls
+guillaume@ubuntu:~/py/0x00$ ls
 101-compile  main.py  main.pyc
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ cat main.pyc | zgrep -c "Holberton School"
+guillaume@ubuntu:~/py/0x00$ cat main.pyc | zgrep -c "Best School"
 1
-$ amonkeyprogrammer@ubuntu:~/py/0x00$ od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFFERENT
+guillaume@ubuntu:~/py/0x00$ od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFFERENT
 0000000 ee 0c 0d 0a 91 26 3e 58 31 00 00 00 e3 00 00 00
 0000020 00 00 00 00 00 00 00 00 00 02 00 00 00 40 00 00
 0000040 00 73 0e 00 00 00 65 00 00 64 00 00 83 01 00 01
@@ -449,10 +449,10 @@ $ amonkeyprogrammer@ubuntu:~/py/0x00$ od -t x1 main.pyc # SYSTEM DEPENDANT => CA
 0000140 6d 61 69 6e 2e 70 79 da 08 3c 6d 6f 64 75 6c 65
 0000160 3e 02 00 00 00 73 00 00 00 00
 0000172
-$ amonkeyprogrammer@ubuntu:~/py/0x00$
+guillaume@ubuntu:~/py/0x00$ 
 ```
 
-### Bytecode -> Python
+### 13. Bytecode -> Python
 
 Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
 
@@ -465,7 +465,7 @@ Write the Python function `def magic_calculation(a, b):` that does exactly the s
               9 BINARY_POWER
              10 BINARY_ADD
              11 RETURN_VALUE
-``` -->
+```
 
 ## Author
 
