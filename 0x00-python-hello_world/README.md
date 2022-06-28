@@ -163,14 +163,14 @@ guillaume@ubuntu:~/py/0x00$
 
 ### 8. Create a new sentence
 
-Complete this [source code](https://github.com/alx/0x00.py/blob/main/8-concat_edges.py) to print `object-oriented programming with Python`, followed by a new line.
+Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py) to print `object-oriented programming with Python`, followed by a new line.
 
 * You are not allowed to use any loops or conditional statements
 * Your program should be exactly 5 lines long
 * You are not allowed to create new variables
 * You are not allowed to use string literals
 
-**Solution:** [8-concat_edges.py](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py)
+**Solution:** [8-concat_edges.py](https://github.com/essilfiequansah/alx-higher_level_programming/blob/main/0x00-python-hello_world/8-concat_edges.py)
 
 ``` Python
 guillaume@ubuntu:~/py/0x00$ ./8-concat_edges.py
