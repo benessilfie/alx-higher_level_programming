@@ -45,7 +45,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
 3
 4
 5
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 ## 1. Secure access to an element in a list
@@ -71,7 +71,7 @@ print("Element at index {:d} is {}".format(idx, element_at(my_list, idx)))
 
 guillaume@ubuntu:~/0x03$ ./1-main.py
 Element at index 3 is 4
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 ## 2. Replace element
@@ -102,7 +102,7 @@ print(my_list)
 guillaume@ubuntu:~/0x03$ ./2-main.py
 [1, 2, 3, 9, 5]
 [1, 2, 3, 9, 5]
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 ## 3. Print a list of integers... in reverse!
@@ -132,7 +132,7 @@ guillaume@ubuntu:~/0x03$ ./3-main.py
 3
 2
 1
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 ## 4. Replace in a copy
@@ -163,7 +163,7 @@ print(my_list)
 guillaume@ubuntu:~/0x03$ ./4-main.py
 [1, 2, 3, 9, 5]
 [1, 2, 3, 4, 5]
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 ## 5. Can you C me now?
@@ -190,7 +190,7 @@ guillaume@ubuntu:~/0x03$ ./5-main.py
 Best Shool
 hiago
  is fun!
-guillaume@ubuntu:~/0x03$ 
+guillaume@ubuntu:~/0x03$
 ```
 
 ## 6. Lists of lists = Matrix
@@ -404,8 +404,8 @@ Write a function in C that checks if a singly linked list is a palindrome.
 - Return: `0` if it is not a palindrome, `1` if it is a palindrome
 - An empty list is considered a palindrome
 
-``` C
-carrie@ubuntu:0x03$ cat lists.h 
+```C
+carrie@ubuntu:0x03$ cat lists.h
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -434,7 +434,7 @@ carrie@ubuntu:0x03$
 ```
 
 ```C
-carrie@ubuntu:0x03$ cat linked_lists.c 
+carrie@ubuntu:0x03$ cat linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
@@ -512,7 +512,7 @@ void free_listint(listint_t *head)
 carrie@ubuntu:0x03$
 ```
 
-``` C
+```C
 carrie@ubuntu:0x03$ cat 13-main.c
 #include <stdio.h>
 #include <stdlib.h>
@@ -554,7 +554,7 @@ carrie@ubuntu:0x03$
 
 **Solution:** [13-is_palindrome.c](https://github.com/essilfiequansah/alx-higher_level_programming/blob/main/0x03-python-data_structures/13-is_palindrome.c), [lists.h](https://github.com/essilfiequansah/alx-higher_level_programming/blob/main/0x03-python-data_structures/lists.h)
 
-``` C
+```C
 carrie@ubuntu:0x03$ gcc -Wall -Werror -Wextra -pedantic 13-main.c linked_lists.c 13-is_palindrome.c -o palindrome
 carrie@ubuntu:0x03$ ./palindrome
 1
@@ -586,9 +586,9 @@ Create a C function that prints some basic info about Python lists.
 
 **Solution:** [100-print_python_list_info.c](https://github.com/essilfiequansah/alx-higher_level_programming/blob/main/0x03-python-data_structures/100-print_python_list_info.c)
 
-``` C
+```C
 julien@ubuntu:~/CPython$ gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c
-julien@ubuntu:~/CPython$ cat 100-test_lists.py 
+julien@ubuntu:~/CPython$ cat 100-test_lists.py
 import ctypes
 
 lib = ctypes.CDLL('./libPyList.so')
@@ -610,7 +610,7 @@ l.append(4)
 lib.print_python_list_info(l)
 l.pop()
 lib.print_python_list_info(l)
-julien@ubuntu:~/CPython$ python3 100-test_lists.py 
+julien@ubuntu:~/CPython$ python3 100-test_lists.py
 [*] Size of the Python List = 2
 [*] Allocated = 2
 Element 0: str
@@ -647,3 +647,7 @@ Element 2: int
 Element 3: int
 julien@CPython:~/CPython$
 ```
+
+## Author
+
+- **Benjamin Essilfie Ofori-Quansah** - [View Profile](https://github.com/essilfiequansah)
