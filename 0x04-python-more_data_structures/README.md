@@ -452,7 +452,7 @@ DCCVII = 707
 guillaume@ubuntu:~/0x04$
 ```
 
-## 13. Weighted average!
+## 13. Weighted average
 
 Write a function that returns the weighted average of all integers tuple `(<score>, <weight>)`
 
